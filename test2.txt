@@ -1,3 +1,0 @@
-old 1
-new 2
-old 3

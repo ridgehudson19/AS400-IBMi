@@ -1,0 +1,15 @@
+PGM
+
+            /* RUN NODEJS PROGRAM USING CONTROL LANGUAGE */
+             ADDENVVAR  ENVVAR(QIBM_MULTI_THREADED) VALUE(Y) +
+                          REPLACE(*YES)
+
+             QSH        CMD('/QOpensys/bin/node  ./finalproject/testing.js')
+
+            /* RUN NODEJS PROGRAM INTERACTIVE ONLY */
+          /* CALL       PGM(QP2TERM) PARM(('/QOpensys/bin/node') +
+                          ('./downloadfile.js'))  */
+
+
+
+ENDPGM

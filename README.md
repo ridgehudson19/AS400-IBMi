@@ -1,2 +1,3 @@
-# AS400-Examples
- Program examples for AS400
+# AS400 Apps
+IBM I series programming. 
+Includes RPGLE IV / RPG ILE / SQLRPGLE / Display Files
